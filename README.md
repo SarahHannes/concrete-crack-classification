@@ -4,7 +4,7 @@ Performs transfer learning to classify images of concrete as having crack or not
 
 ## Methodology
 ### Data Preprocessing
-- Dataset is split into train, validation and test sets with ratio of 70:24:6
+- Dataset is split into train, validation and test sets with ratio of 70:24:6.
 - Data augmentation layer is applied to further diversify the dataset.
 - Applied augmentation layers are `RandomFlip`, `RandomRotation`, `RandomContrast` and `RandomZoom`.
 - Augmented data is then preprocessed by `tensorflow.keras.applications.resnet50.preprocess_input` layer.
@@ -27,6 +27,9 @@ Performs transfer learning to classify images of concrete as having crack or not
 
 #### Model architecture summary
 <img src="plot/model.png" width="500">
+
+#### Prediction on test data
+<img src="plot/test_data_predictions.jpg" width="500">
 
 ## Credits
 2018 – Özgenel, Ç.F., Gönenç Sorguç, A. “Performance Comparison of Pretrained Convolutional Neural Networks on Crack Detection in Buildings”, ISARC 2018, Berlin.
