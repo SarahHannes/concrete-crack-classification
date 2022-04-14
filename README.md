@@ -1,4 +1,4 @@
-# Concrete Crack Classification
+# Concrete Crack Classification <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/SarahHannes/concrete-crack-classification/main/concrete_crack.html">[Code]</a>
 
 Performs transfer learning to classify images of concrete as having crack or not, using <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet50">ResNet50</a> as base model. Dataset is obtained from <a href="https://data.mendeley.com/datasets/5y9wdsg2zt/2">Mendeley Data</a>.
 
